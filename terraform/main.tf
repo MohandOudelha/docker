@@ -1,5 +1,5 @@
 resource "null_resource" "export_database" {
-
+  
   # Provisioner pour exporter la base de données
   provisioner "local-exec" {
     command = "mysqldump -h ${var.db_host} -P ${var.db_port} -u ${var.db_user} -p${var.db_password} ${var.db_name} > ${var.export_dir}/${var.export_file}"
