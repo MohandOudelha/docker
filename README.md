@@ -18,3 +18,6 @@ in this brief we will realise three projects :</p>
   <li>deploying an e-shop (prestashop) with docker-compose.</li>
   <li>migrate an existing e-shop to a Docker environment ( prestashop and sql database)</li>
 </ol>
+
+<p> Next step </p> 
+
